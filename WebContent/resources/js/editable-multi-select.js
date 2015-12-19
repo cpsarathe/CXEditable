@@ -29,8 +29,6 @@ $(function(){
 
   $.extend(multiSelect.prototype, {
     value2htmlFinal: function(value, element) {
-    	console.log('value',value);
-    	console.log('this.sourceData',element);
         var text = '', 
             items = $.fn.editableutils.itemsByValue(value, this.sourceData);
             
